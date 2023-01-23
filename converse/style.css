@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  background-color: orange;
+  position: relative;
+}
+.productlink {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+h1::after {
+  content: "Sale";
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #fff;
+  background-color: rgb(243, 38, 38);
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+  position: absolute;
+  top: -28px;
+  left: -30px;
+}
+.product {
+  border: 5px solid #000;
+  width: 825px;
+  margin: 10% auto;
+}
+.Product-heading {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(224, 252, 252);
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.shipping {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #777;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.productlink:link,
+.productlink:visited {
+  color: black;
+}
+
+.productlink:hover,
+.productlink:active {
+  text-decoration: none;
+}
+
+.submitbutton {
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border: none;
+}
+.submitbutton:hover {
+  color: black;
+  background-color: white;
+}
+
+.productdetails {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.list {
+  padding-left: 40px;
+  margin-bottom: 5px;
+}
+.list:last-child {
+  margin-bottom: none;
+}
+.submitbutton {
+  width: 100%;
+  border-top: 2px solid #000;
+}
+.relatedtext {
+  margin-bottom: 5px;
+  clear: both;
+  /* overflow-wrap: break-word; */
+}
+
+.color {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  display: inline-block;
+  margin-right: 10px;
+}
+.one {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(231, 25, 25);
+}
+.two {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(165, 228, 19);
+}
+.three {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(42, 27, 248);
+}
+.four {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(233, 10, 96);
+}
+.price {
+  float: left;
+}
+.shipping {
+  float: right;
+}
+.block1 {
+  width: 243px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+.block2 {
+  width: 243px;
+  float: left;
+  margin-top: 20px;
+}
+.product-img {
+  float: left;
+  margin-right: 40px;
+}
